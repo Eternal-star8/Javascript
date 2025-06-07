@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f2f2f2f4; 
+    justify-content: center;
+    letter-spacing: .2px;
+ }
+ h1, h2 {
+  font-weight: normal;
+ }
+ 
+ #wrapper {
+   width: 90%;
+   max-width: 960px;
+   margin: 20px auto;
+   border-radius: 6px;
+   box-shadow: 0px 1px 6px rgba(37, 14, 14, 0.2);
+   box-sizing: border-box;
+   padding: 0 20px;
+   overflow: hidden;
+   border: 1px solid lightgray;
+ }
+ 
+ 
+ #page-banner {
+   background:#d9d4d4;
+   padding: 10px 0;
+ }
+ 
+ 
+ #page-banner h1, #page-banner p {
+   width: 100%;
+   text-align: center;
+   margin: 10px 0;
+ }
+ 
+ #page-banner input {
+   width: 90%;
+   max-width: 300px;
+   margin: 20px auto;
+   display: block;
+   padding: 8px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   font-size: 16px;
+  color: #180505;
+
+ }
+  #book-list, #add-book, #tabbed-content {
+   margin: 30px;
+ }
+ #book-list ul, #tabbed-content ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+#book-list li {
+padding: 20px;
+border-left: 5px solid #ddd;
+margin: 20px 10px;
+}
+
+#book-list li:hover {
+ border-color: #17b965; 
+}
+.delete {
+  float: right;
+  background: #ef4f4f;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+
+#add-book:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#add-book #hide {
+  width: 30px;
+}
+
+#add-book label {
+  line-height: 52px;
+}
+
+
+#tabbed-content li {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#tabbed-content .panel {
+  display: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+#tabbed-content .panel.active {
+  display: block;
+}
