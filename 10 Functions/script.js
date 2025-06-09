@@ -35,8 +35,8 @@ createBooking('LH123', undefined, 1000);
 // HOW PASSING ARGUMENTS WORKS: VALUE(Yes) vs REFERENCE(No)
 
 const flight = 'LH234';
-const Anshu = {
-    name: 'Anshu Sharma',
+const Shreya = {
+    name: 'Shreya Verma',
     passport: 1234567890,
 }
 
@@ -51,20 +51,20 @@ const checkIn = function(flightNum, passenger) {
     }
 };
 
-//checkIn(flight, Anshu);
+//checkIn(flight, Shreya);
 //console.log(flight);
-//console.log(Anshu);
+//console.log(Shreya);
 
 // Is the same as doing....
 //const flightNum = flight;
-//const passenger = Anshu;
+//const passenger = Shreya;
 
 const newPassport = function(person) {
     person.passport = Math.trunc(Math.random() * 100000000000);
 }
 
-newPassport(Anshu) ;
-checkIn(flight, Anshu);
+newPassport(Shreya) ;
+checkIn(flight, Shreya);
 
 
 //--------------------------------------------------------------------------------------------------------------------------------//
@@ -97,7 +97,7 @@ const high5 = function() {
 };
 document.body.addEventListener('click', high5);
 
-['Riyanshu', 'Saloni', 'Aisha', 'Supriya'].forEach(high5);
+['Shreya', 'Navi', 'Asha', 'Priya'].forEach(high5);
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------//
@@ -111,15 +111,15 @@ const greet = function(greeting) {
 };
 
 const greeterHey = greet('Hey');
-greeterHey('Riyanshu');
-greeterHey('Anshu');
+greeterHey('Shreya');
+greeterHey('Navi');
 
-greet('Hello')('Riyanshu');
+greet('Hello')('Shreya');
 
 // CHALLENGE
 const greetArr = greeting => Name => console.log(`${greeting} ${Name}`);
 
-greetArr('Hi')('Riyanshu');
+greetArr('Hi')('Shreya');
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------//
@@ -138,8 +138,8 @@ const lufthansa = {
     },
 };
 
-lufthansa.book(239, 'Riyanshu Sharma');
-lufthansa.book(239, 'Anshu Sharma');
+lufthansa.book(239, 'Shreya Verma');
+lufthansa.book(239, 'Navi Verma');
 console.log(lufthansa);
 
 const eurowings = {
@@ -151,12 +151,12 @@ const eurowings = {
 const book = lufthansa.book;
 
 // Doesn't work
-// book(23, 'Aditya Sharma');
+// book(23, 'Yash Verma');
 
-book.call(eurowings, 23, 'Aditya Sharma');
+book.call(eurowings, 23, 'Yash Verma');
 console.log(eurowings);
 
-book.call(lufthansa, 23, 'Indu Sharma');
+book.call(lufthansa, 23, 'Sam Verma');
 console.log(lufthansa);
 
 const swiss = {
@@ -189,8 +189,8 @@ const bookLX = book.bind(swiss);
 bookEW(23, 'Steven Williams');
 
 const bookEW23 = book.bind(eurowings, 23);
-bookEW23('Anshu Sharma');
-bookEW23('Riyanshu Sharma');
+bookEW23('Navi Verma');
+bookEW23('Shreya Verma');
 
 // With Event Listeners
 lufthansa.planes = 300;
