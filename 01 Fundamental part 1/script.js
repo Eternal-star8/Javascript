@@ -11,10 +11,10 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
-let riyanshu_sharma = "RS";
+let shreya_verma= "SV";
 let $function = 37;
 
-let Person = 'Riyanshu'
+let Person = 'shreya'
 let PI = 3.1415;
 
 let myFirstJob = "Programmer";
@@ -23,7 +23,7 @@ let myCurrentJob = "Teacher";
 let job1 = "programmer";
 let job2 = "teacher";
 
-console.log(riyanshu_sharma);
+console.log(shreya_verma);
 console.log(PI);
 console.log(myFirstJob);
 console.log(myCurrentJob);
@@ -36,7 +36,7 @@ console.log(javaScriptIsFun);
  console.log(typeof true); 
 console.log(typeof javaScriptIsFun);
 console.log(typeof 37);
-console.log(typeof 'Riyanshu');
+console.log(typeof 'Shreya');
 
 
 javaScriptIsFun = 'YES!';
@@ -60,75 +60,81 @@ const birthYear = 1991;
 var job = 'programmer';
 job = 'teacher';
 
-lastName = 'Sharma';
+lastName = 'Verma';
 console.log(lastName);
 */
 
 /*
 //math operator
-const ageRiyanshu = now-2005;
-const ageAditya = now-2001;
-const ageIndu = now-1997;
-console.log(ageRiyanshu, ageAditya, ageIndu);
 
-console.log(ageRiyanshu*2, ageAditya/5, ageIndu%2);
+const now = new Date().getFullYear();
+const ageShreya = now - 2005;
+const ageHarsh = now - 2010;
+const ageYash = now - 1992;
+console.log(ageShreya, ageHarsh, ageYash);
 
-const firstName = 'Riyanshu';
-const lastName = 'Sharma';
+console.log(ageShreya * 2, ageHarsh / 5, ageYash % 2);
+
+// String concatenation
+const firstName = 'Shreya';
+const lastName = 'Verma'; 
 console.log(firstName + ' ' + lastName);
 
-// assignment operator
-let x = 10 + 5;
-x += 10;
-x *= 4;
-x++;
-x--;
-x--;
+// Assignment operators
+let x = 10 + 5; 
+x += 10;       
+x *= 4;         
+x++;            
+x--;            
+x--;           
 console.log(x);
 
-// comparison opeartors
-console.log(ageRiyanshu > ageAditya); // >, <, >=,<=
-console.age(ageIndu >= 18);
+// Comparison operators
+console.log(ageShreya > ageHarsh); 
+console.log(ageYash >= 18);
 
-const isFullAge = ageIndu >=18;
+const isFullAge = ageYash >= 18;
+console.log(isFullAge); 
 
-console.log(now - 2005 > now - 2001 > now - 1997);
+// Chained comparisons
+console.log((now - 2005 > now - 2010) && (now - 2010 > now - 1992));
 */
 /*
 let now=2025;
-const ageRiyanshu = now-2005;
-const ageAditya = now-2001;
-const ageIndu = now-1997;
-console.log(now - 2005 > now - 2001 > now - 1997);
+const ageShreya = now-2005;
+const ageHarsh = now-2010;
+const ageYash = now-1992;
+console.log(now - 2005 > now - 2010 > now - 1992);
 
 let x,y;
 x = y = 25 - 10 -5; //x = y = 10, x = 10
 console.log(x,y);
 
-const averageAge = (ageRiyanshu + ageAditya + ageIndu)/2 ;
-console.log(ageRiyanshu, ageAditya, ageIndu, averageAge);
+const averageAge = (ageShreya + ageHarsh + ageYash)/3 ;
+console.log(ageShreya, ageHarsh, ageYash, averageAge);
 
-const firstName = 'Riyanshu';
+const firstName = 'Shreya';
 const job = 'teacher';
 const birthYear = 2005;
 const year = 2025;
 
-const Riyanshu = `I'm" +' '+ firstName + ' ' + (year - birthYear) +' ' + 'year old' + ' ' + job + '!' ` ;
-console.log(Riyanshu);
+const Shreya = `I'm" +' '+ firstName + ' ' + (year - birthYear) +' ' + 'year old' + ' ' + job + '!' ` ;
+console.log(Shreya);
  console.log('Just a regular string');
 
  console.log('String with \n\
     multiple \n\
     lines');
-*/
+ */
+
 /*
 const age = 21;
 
 if (age >= 18){
-    console.log('Riyanshu can drive');
+    console.log('Shreya can drive');
 }else{
     const yearsLeft = 18 - age;
-    console.log('Riyanshu is too young. wait another ${yearsLeft} years :');
+    console.log('Shreya is too young. wait another ${yearsLeft} years :');
 }
 
 const birthYear = 2012;
@@ -162,7 +168,7 @@ const inputYear = '1991' ;
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 
-console.log(Number('Riyanshu'));
+console.log(Number('Shreya'));
 console.log(typeof NaN)
 
 console.log(String(23), 23);
@@ -225,7 +231,7 @@ console.log(hasDriveringLicense && hasGoodVision);
 console.log(hasDriveringLicense || hasGoodVision);
 
 if (hasDriveringLicense && hasGoodVision) {
-    console.log('Riyanshu is able to drive!');
+    console.log('Shreya is able to drive!');
 }else{
     console.log('Someone else should drive...');
 }
@@ -234,7 +240,7 @@ const isTired = true; // C
 console.log(hasDriveringLicense && hasGoodVision && isTired);
 
 if (hasDriveringLicense && hasGoodVision && isTired) {
-    console.log('Sarah is able to drive!');
+    console.log('Sam is able to drive!');
 }else{
     console.log('Someone else should drive...');
 }
@@ -305,7 +311,7 @@ true && false && !false
 if (23>10) {
     const str = '23 is bigger';
 }
-const me ='Riyanshu';
+const me =' Shreya';
 console.log(`I'm ${2025-2005} years old ${me}`);
 */
 
