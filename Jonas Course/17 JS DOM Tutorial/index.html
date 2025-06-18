@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link href="styles.css" rel="stylesheet"/>
+   
+    <title>JavaScript DOM Tutorials</title>
+    <script src="app.js"> </script>
+</head>
+<body>
+    <div id ="wrapper">
+        <header>
+            <div id="page-banner">
+             <h1 class="title" > Bookorama </h1>
+             <p>Books for fictional lovers</p>
+             <form id="search-books">
+             <input type="text" placeholder="Search books..." />
+            </form>
+        </div>
+    </header>
+    <div id="book-list">
+    <h2 class="title">Books to Read</h2>
+    <ul>
+        <li>
+            <span class="name">Wuthering Heights</span>
+            <span class="delete">delete</span>
+        </li>
+        <li>
+            <span class="name">The Alchemist</span>
+            <span class="delete">delete</span>
+        </li>
+        <li>
+            <span class="name">The fault in our stars</span>
+            <span class="delete">delete</span>
+        </li>
+        <li>
+            <span class="name">Jane Eyre</span>
+            <span class="delete">delete</span>
+        </li>
+    </ul>
+</div>
+<form id="add-book">
+    <input type="checkbox" id="hide"/>
+    <label for=" hide">Hide all books</label>
+    <input type="text" placeholder=" add a book..." />
+    <button>Add</button>
+    
+</form> 
+
+<div id="tabbed-content">
+  <ul class="tabs">
+    <li data-target="#about" class="active">About</li>
+    <li data-target="#contact">Contact</li>
+  </ul>
+  <div class="panel active" id="about">
+    <p>Content for about tab...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna orr</p>
+  </div>
+  <div class="panel" id="contact">
+    <p>Content for contact tab...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna orr</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
