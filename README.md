@@ -72,7 +72,7 @@ Each folder represents a learning module, and the JS files inside contain explai
 ## 🌐 Connect with Me
 
 - 💼 LinkedIn: [Priya Mehta](https://www.linkedin.com/in/priya-mehta-9a3b6b333)
-- 💻 GitHub: [Eternal-star8](https://github.com/Eternal-star8)
+- 💻 GitHub: [Priya-Mehta436](https://github.com/Priya-Mehta436)
 - ✉️ Open to: Internships, collaborations, and tech communities!
 
 ---
