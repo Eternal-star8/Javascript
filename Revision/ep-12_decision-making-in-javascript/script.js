@@ -1,10 +1,10 @@
 const userName = prompt('Enter your Name') 
 const userAge = parseInt(+prompt('Enter your Age')) 
-const userGender = prompt('Male or Female') 
+ 
 
 console.log(`Name: ${userName}`)
 console.log(`Age: ${userAge}`)
-console.log(`Gender: ${userGender}`)
+
 
 
 if (userAge>=0 && userAge<=5)
@@ -31,7 +31,7 @@ if (userAge>=25 && userAge<=45)
     console.log(`${userName} is a Working Professional👨🏻‍💻👩🏻‍💻🧑🏻‍💻`)
     console.log('He/She is a web developer')
 }
-if (userAge>45)
+if (inputAge>45)
 {
     console.log(`${userName}  is retired!`)
 }
